@@ -1,6 +1,25 @@
 body {
-  background-color: white;
   width: 1000px;
   border: 10px solid black;
   margin: auto;
 }
+
+p {
+    text-indent: 3em;
+    padding: 1em;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+/* .backgroundIMG {
+    background-image: url('https://images.unsplash.com/photo-1538370965046-79c0d6907d47?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max');
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: black; 
+} */
+
