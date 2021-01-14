@@ -41,8 +41,11 @@ if (answerFour === 'yes' || answerFour === 'y') {
 var answerFive = prompt('Would I like Snickers?').toLowerCase();
 if (answerFive === 'yes' || answerFive === 'y') {
   // console.log('Your Correct');
-  alert('Your Correct');
+  alert('Your Correct! ' + Username + ' I appreciate the time youve spent with me');
 } else if (answerFive === 'no' || answerFive === 'n') {
   // console.log('That is not correct');
-  alert('That is not correct');
+  alert('That is not correct, Thanks for Trying anyway ' + Username + ', I appreciate the time youve spent with me!');
+} else {
+  //console.log('Thanks ' + Username + ' I appreciate the time youve spent with me!');
+  alert('Thanks ' + Username + ' I appreciate the time youve spent with me!');
 }
