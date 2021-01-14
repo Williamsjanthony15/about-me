@@ -6,45 +6,43 @@ var Username = prompt('Hey! Whats your name?');
 alert('Hello, ' + Username + ' Nice to Meet you!');
 
 
-var questionOne = prompt('Am I Married?').toLowerCase();
-if (questionOne === 'yes' || questionOne === 'y') {
+var answerOne = prompt('Am I Married?').toLowerCase();
+if (answerOne === 'yes' || answerOne === 'y') {
   // console.log('Your correct');
   alert('You Are Correct');
 }
 
-var questionTwo = prompt('Do I like Beer?').toLowerCase();
-if (questionTwo === 'yes' || questionTwo === 'y') {
+var answerTwo = prompt('Do I like Beer?').toLowerCase();
+if (answerTwo === 'yes' || answerTwo === 'y') {
   // console.log('Your Correct!);
   alert('You Are Correct');
-} else if (questionTwo === 'no' || questionTwo === 'n') {
+} else if (answerTwo === 'no' || answerTwo === 'n') {
   // console.log('EHHHH, WRONG!');
   alert('EHHHH, WRONG!');
 }
 
-var questionThree = prompt('Will I die young?').toLowerCase();
-if (questionThree === 'yes' || questionThree === 'y') {
-  // console.log('Your Correct!);
-  alert('You are Correct');
-} else if (questionThree === 'no' || questionThree === 'n') {
-  // console.log('Nope Good Try');
-  alert('Nope Good Try');
+var answerThree = prompt('Will I die young?').toLowerCase();
+if (answerThree === 'yes' || answerThree === 'y') {
+  // console.log('You only wish');
+  alert('You only wish');
+} else if (answerThree === 'no' || answerThree === 'n') {
+  // console.log('Duh');
+  alert('Duh');
 }
 
-var questionFour = prompt('Do I have 2 boys?').toLowerCase();
-if (questionFour === 'yes' || questionFour === 'y') {
+var answerFour = prompt('Do I have 2 boys?').toLowerCase();
+if (answerFour === 'yes' || answerFour === 'y') {
   // console.log('Your correct!');
-} else if (questionFour === 'no' || questionFour === 'n') {
+} else if (answerFour === 'no' || answerFour === 'n') {
   //console.log('Incorrect');
   alert('Incorrect');
 }
 
-var questionFive = prompt('Would I like Snickers?').toLowerCase();
-if (questionFive === 'yes' || questionFive === 'y') {
+var answerFive = prompt('Would I like Snickers?').toLowerCase();
+if (answerFive === 'yes' || answerFive === 'y') {
   // console.log('Your Correct');
   alert('Your Correct');
-} else if (questionFive === 'no' || questionFive === 'n') {
+} else if (answerFive === 'no' || answerFive === 'n') {
   // console.log('That is not correct');
   alert('That is not correct');
 }
-
-
