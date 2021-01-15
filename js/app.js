@@ -2,14 +2,17 @@
 //Get Username
 // write 5 questions, Must accepct y/n or Yes/No in ANY CASE
 // User Username in the beginning and End when the user is done.
-var Username = prompt('Hey! Whats your name?');
-alert('Hello, ' + Username + ' Nice to Meet you!');
+var userName = prompt('Hey! Whats your name?');
+alert('Hello, ' + userName + ' Nice to Meet you!');
 
 
 var answerOne = prompt('Am I Married?').toLowerCase();
 if (answerOne === 'yes' || answerOne === 'y') {
   // console.log('Your correct');
   alert('You Are Correct');
+} if (answerOne === 'no' || answerOne === 'n') {
+  // console.log('That isnt correct, Im sorry');
+  alert('That isnt correct, Im sorry');
 }
 
 var answerTwo = prompt('Do I like Beer?').toLowerCase();
@@ -41,11 +44,11 @@ if (answerFour === 'yes' || answerFour === 'y') {
 var answerFive = prompt('Would I like Snickers?').toLowerCase();
 if (answerFive === 'yes' || answerFive === 'y') {
   // console.log('Your Correct');
-  alert('Your Correct! ' + Username + ' I appreciate the time youve spent with me');
+  alert('Your Correct! ' + userName + ' I appreciate the time youve spent with me');
 } else if (answerFive === 'no' || answerFive === 'n') {
   // console.log('That is not correct');
-  alert('That is not correct, Thanks for Trying anyway ' + Username + ', I appreciate the time youve spent with me!');
+  alert('That is not correct, Thanks for Trying anyway ' + userName + ', I appreciate the time youve spent with me!');
 } else {
-  //console.log('Thanks ' + Username + ' I appreciate the time youve spent with me!');
-  alert('Thanks ' + Username + ' I appreciate the time youve spent with me!');
+  //console.log('Thanks ' + userName + ' I appreciate the time youve spent with me!');
+  alert('Thanks ' + userName + ' I appreciate the time youve spent with me!');
 }
