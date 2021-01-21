@@ -133,3 +133,5 @@ for (var i = 0; i < 6; i++) {
     break;
   }
 }
+alert('congratulations!, you answered' + score + ' correctly! Thanks for visiting.');
+// console.log(score);
