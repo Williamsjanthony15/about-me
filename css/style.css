@@ -23,3 +23,8 @@ h1 {
     background-color: black; 
 } */
 
+.movies {
+    border: 10px solid black;
+    margin: auto;
+    
+}
