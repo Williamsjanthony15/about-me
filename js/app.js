@@ -131,9 +131,9 @@ function timeSeven() {
     }
     if (answerCorrectly) {
       break;
-    } {
-      alert('congratulations!, you answered' + score + ' correctly! Thanks for visiting.');
-    }
+    } 
   }
 }
 timeSeven();
+{ alert('congratulations!, you answered ' + score + ' correctly! Thanks for visiting.');
+}

@@ -4,27 +4,61 @@ body {
   margin: auto;
 }
 
-p {
+#p1 {
     text-indent: 3em;
     padding: 1em;
+    border: 10px solid grey;
+}
+
+#p2 {
+    text-indent: 3em;
+    padding: 1em;
+    border: 10px solid black;
+}
+
+#p3 {
+    text-indent: 3em;
+    padding: 1em;
+    border: 10px solid grey;
+}
+
+#p4 {
+    text-indent: 3em;
+    padding: 1em;
+    border: 10px solid black;
+}
+
+#p5 {
+    text-indent: 3em;
+    padding: 1em;
+    border: 10px solid grey;
 }
 
 h1 {
     font-size: 50px;
     text-align: center;
 }
-/* .backgroundIMG {
-    background-image: url('https://images.unsplash.com/photo-1538370965046-79c0d6907d47?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max');
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    background-color: black; 
-} */
 
-.movies {
-    border: 10px solid black;
-    margin: auto;
-    
+#movies-head{
+    text-align: center;
 }
+#movies {
+    border: 10px solid grey
+}
+
+#School {
+    border: 10px solid black;
+    text-indent:3em;
+    padding:1em;
+}
+
+#Job-History {
+    border: 10px solid grey;
+    text-indent:3em;
+    padding:1em;
+}
+
+#Goals {
+    border: 10px solid black;
+    text-indent:3em;
+    padding:1em;
