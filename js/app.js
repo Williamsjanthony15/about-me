@@ -8,6 +8,7 @@ var userName = prompt('Hey! Whats your name?');
 alert('Hello, ' + userName + ' Nice to Meet you!');
 
 // Question One
+function timeOne(){
 var answerOne = prompt('Am I Married?').toLowerCase();
 if (answerOne === 'yes' || answerOne === 'y') {
   // console.log('Your correct');
@@ -17,8 +18,13 @@ if (answerOne === 'yes' || answerOne === 'y') {
   // console.log('That isnt correct, Im sorry');
   alert('That isnt correct, Im sorry');
 }
+}
+
+timeOne();
 
 // Question Two
+
+function timeTwo(){
 var answerTwo = prompt('Do I like Beer?').toLowerCase();
 if (answerTwo === 'yes' || answerTwo === 'y') {
   // console.log('Your Correct!);
@@ -28,8 +34,12 @@ if (answerTwo === 'yes' || answerTwo === 'y') {
   // console.log('EHHHH, WRONG!');
   alert('EHHHH, WRONG!');
 }
+}
+
+timeTwo();
 
 // Question Three
+function timeThree(){
 var answerThree = prompt('Will I die young?').toLowerCase();
 if (answerThree === 'yes' || answerThree === 'y') {
   // console.log('You only wish');
@@ -39,8 +49,12 @@ if (answerThree === 'yes' || answerThree === 'y') {
   // console.log('Duh');
   alert('Duh');
 }
+}
+
+timeThree();
 
 // Question four
+function timeFour(){
 var answerFour = prompt('Do I have 2 boys?').toLowerCase();
 if (answerFour === 'yes' || answerFour === 'y') {
   // console.log('Your correct!');
@@ -50,8 +64,12 @@ if (answerFour === 'yes' || answerFour === 'y') {
   //console.log('Incorrect');
   alert('Incorrect');
 }
+}
+
+timeFour();
 
 // Question Five
+function timeFive(){
 var answerFive = prompt('Would I like Snickers?').toLowerCase();
 if (answerFive === 'yes' || answerFive === 'y') {
   // console.log('Your Correct');
@@ -61,7 +79,11 @@ if (answerFive === 'yes' || answerFive === 'y') {
   // console.log('That is not correct');
   alert('That is not correct, Thanks for Trying anyway ' + userName + ', I appreciate the time youve spent with me!' + ' You Answered' + score + ' Great Job!');
 }
+}
 
+timeFive();
+
+function timeSix(){
 var toLow = ['1', '2', '3', '4'];
 var toHigh = ['6', '7', '8', '9', '10'];
 for (var i = 0; i < 4; i++) {
@@ -84,6 +106,11 @@ for (var i = 0; i < 4; i++) {
     }
   }
 }
+}
+
+timeSix();
+
+function timeSeven(){
 // I is utilized for loop above.
 var answerCorrectly = false;
 var correctAnswers = ['blue', 'green', 'yellow'];
@@ -106,5 +133,11 @@ for (var i = 0; i < 6; i++) {
     break;
   }
 }
+<<<<<<< HEAD
 console.log(score);
 alert(score);
+=======
+}
+
+timeSeven();
+>>>>>>> 9352607df8464a676ebc419d9666795e47c9321e
