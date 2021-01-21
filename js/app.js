@@ -133,11 +133,3 @@ for (var i = 0; i < 6; i++) {
     break;
   }
 }
-<<<<<<< HEAD
-console.log(score);
-alert(score);
-=======
-}
-
-timeSeven();
->>>>>>> 9352607df8464a676ebc419d9666795e47c9321e
