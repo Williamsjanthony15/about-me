@@ -135,5 +135,5 @@ function timeSeven() {
   }
 }
 timeSeven();
-{ alert('congratulations!, you answered ' + score + ' correctly! Thanks for visiting. Here are the correct answers: Yes, Yes, No, Yes, Yes, 5, Blue. Thanks for playing!');
+{ alert('congratulations!, you answered ' + score + ' correctly! Thanks for visiting. Here are the correct answers: 5, Blue, Green, Yellow. Thanks for playing!');
 }
